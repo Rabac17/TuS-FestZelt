@@ -8,7 +8,7 @@
 	$len = $columns*$rows;
 	
 	$xmlFile = 'status.xml'; 
-	
+	//Test
 	if (file_exists($xmlFile)) { 
 	$xml = simplexml_load_file($xmlFile); 
 	$i = 1;
