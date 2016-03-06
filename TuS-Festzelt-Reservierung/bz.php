@@ -58,10 +58,10 @@
 		for ($i = 1; $i <= $columns; $i++) {
 			//echo "<input name='btn' value='".$i."' type='submit'>"; 
 			if($status[$shift+$i] == "free") {
-				echo "<input name='btn' value='".$shift+$i."' type='submit'style='background: #ccc url(biertisch_free.png); width: ".$tblWidth."px; height: ".$tblHeigth."px'>";
+				echo "<input name='btn' value='".$shift+$i."' type='submit'style='background: #ccc url(Bilder/biertisch_free.png); width: ".$tblWidth."px; height: ".$tblHeigth."px'>";
 			}
 			if($status[$shift+$i] == "booked") {
-				echo "<input name='btn' value='".$shift+$i."' type='submit'style='background: #ccc url(biertisch_booked.png); width: ".$tblWidth."px; height: ".$tblHeigth."px'>";
+				echo "<input name='btn' value='".$shift+$i."' type='submit'style='background: #ccc url(Bilder/biertisch_booked.png); width: ".$tblWidth."px; height: ".$tblHeigth."px'>";
 				//echo "enableviewstate='false' disabled='disabled';";
 			}
 		} 

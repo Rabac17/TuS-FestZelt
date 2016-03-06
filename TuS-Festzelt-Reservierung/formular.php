@@ -33,7 +33,7 @@
 </style>
 </head>
 
-<body background="Bierzelt.jpg" style="font-size: 1cm" >
+<body background="Bilder/Bierzelt.jpg" style="font-size: 1cm" >
 
 <label id="Label1" style="font-family: Cambria, Cochin, Georgia, Times, &quot;Times New Roman&quot;, serif; font-size: xx-large">
 Buchungsformular für Tisch: <?php echo $table; ?></label>
