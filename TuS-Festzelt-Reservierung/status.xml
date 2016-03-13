@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <bookingInfo>  
 	<table id="1">  
-		<status>booked</status>  
+		<status>free</status>  
 	</table>  
 	<table id="2">  
-		<status>booked</status>  
+		<status>free</status>  
 	</table>  
 	<table id="3">  
-		<status>booked</status>  
+		<status>free</status>  
 	</table>  
 	<table id="4">  
 		<status>free</status>  

@@ -8,7 +8,7 @@
 	$len = $columns*$rows;
 	
 	$xmlFile = 'status.xml'; 
-	
+	//Test
 	if (file_exists($xmlFile)) { 
 	$xml = simplexml_load_file($xmlFile); 
 	$i = 1;
@@ -21,10 +21,10 @@
 	for ($i = 1; $i <= $len; $i++) {
 		//echo 'Status: ' . $status[$i] . '<br>';
 		if($status[$i] == "free") {
-			$tableIcon[$i] = "biertisch_free.png";
+			$tableIcon[$i] = "Bilder/biertisch_free.png";
 		}
 		if($status[$i] == "booked") {
-			$tableIcon[$i] = "biertisch_booked.png";
+			$tableIcon[$i] = "Bilder/biertisch_booked.png";
 		}
 		//echo $tableIcon[$i] . '<br>';
 
@@ -49,9 +49,9 @@
 </style>
 </head>
 
-<body background="Bierzelt.jpg" >
+<body background="Bilder/Bierzelt.jpg" >
 <center>
-<p><img alt="" height="100%" src="helene.jpg" width="766" align="middle" /></p>
+<p><img alt="" height="100%" src="Bilder/helene.jpg" width="766" align="middle" /></p>
 <br />
 <form action=formular.php method="post" style="width: 766px">
 <?php
@@ -65,10 +65,10 @@
 			$idx = $i+$shift;
 			//echo "<input name='btn' value='".$i."' type='submit'>"; 
 			if($status[$idx] == "free") {
-				echo "<input name='btn' value='".$idx."' type='submit'style='background: #ccc url(biertisch_free.png); width: ".$tblWidth."px; height: ".$tblHeigth."px'>";
+				echo "<input name='btn' value='".$idx."' type='submit'style='background: #ccc url(Bilder/biertisch_free.png); width: ".$tblWidth."px; height: ".$tblHeigth."px'>";
 			}
 			if($status[$idx] == "booked") {
-				echo "<input name='btn' value='".$idx."' type='submit'style='background: #ccc url(biertisch_booked.png); width: ".$tblWidth."px; height: ".$tblHeigth."px' enableviewstate='false' disabled='disabled'>";
+				echo "<input name='btn' value='".$idx."' type='submit'style='background: #ccc url(Bilder/biertisch_booked.png) ; width: ".$tblWidth."px; height: ".$tblHeigth."px' enableviewstate='false' disabled='disabled'>";
 				//echo "enableviewstate='false' disabled='disabled';";
 			}
 		} 

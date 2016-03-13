@@ -26,7 +26,11 @@
 <title>Untitled 1</title>
 </head>
 
+<<<<<<< HEAD
 <body>
+=======
+<body background="Bilder/Bierzelt.jpg" style="font-size: 1cm" >
+>>>>>>> 21ff437a0362b4546ddcb1e38f219db0260c6dbd
 
 <form action="skript.php" method="post">
 	<input id="lbl1" type="text" name="tables" value="<?php "Ausgewählte Tische: " . print $tbl ; ?>" style="width: 483px"></input>
